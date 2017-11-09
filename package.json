@@ -2,10 +2,15 @@
   "name": "deking008",
   "version": "0.0.1",
   "description": "this is nodejs web server",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
   },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deking008/anydoor.git"
@@ -20,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/deking008/anydoor/issues"
   },
-  "homepage": "https://github.com/deking008/anydoor#readme"
+  "homepage": "https://github.com/deking008/anydoor#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
+    "pre-commit": "^1.2.2"
+  }
 }
