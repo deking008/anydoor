@@ -1,0 +1,24 @@
+{
+  "name": "deking008",
+  "version": "0.0.1",
+  "description": "this is nodejs web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deking008/anydoor.git"
+  },
+  "keywords": [
+    "anydoor",
+    "nodejs",
+    "webserver"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deking008/anydoor/issues"
+  },
+  "homepage": "https://github.com/deking008/anydoor#readme"
+}
